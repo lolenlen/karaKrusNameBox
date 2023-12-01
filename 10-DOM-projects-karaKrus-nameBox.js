@@ -19,7 +19,9 @@
          
         let compliment = '';
       
-      if (randomNumber >= 0 && randomNumber < 1/10) {
+        if (userName === 'Elisa' || userName === 'elisa') {
+        compliment = 'Hola mi amor <3'
+      } else if (randomNumber >= 0 && randomNumber < 1/10) {
          compliment ='Cool name dude.';
       } else if (randomNumber >= 1/10 && randomNumber < 2/10) {
          compliment ='Nice to meet you!';
