@@ -61,7 +61,7 @@ body {
 .responses {
   font-size: 20px;
   position: fixed;
-  top: 25%;
+  bottom: 50%;
   left: 30%;
   right: 30%;
 }
